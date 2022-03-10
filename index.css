@@ -1,0 +1,106 @@
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+
+.background{
+  width: 63%;
+  height:40%;
+  margin-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.intestazione{
+  padding-top: 8%;
+  text-align: center;
+}
+
+.intestazione .logo{
+  width:20%;
+}
+
+.intestazione .titolo{
+  font-family: arial;
+  color:rgba(0, 221, 0, 1.0);
+  font-size: 20px;
+  margin: 0;
+}
+
+.barradiricerca{
+  text-align: center;
+  width: 80%;
+  background-color: rgba(0, 221, 0, 1.0);
+  margin: auto;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 5px;
+}
+
+main{
+  padding-bottom: 8%;
+}
+
+.monopattino{
+  width: 80%;
+  margin: auto;
+}
+
+.monopattino .proprietario{
+  font-family: arial;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.proprietario:before {
+    content: ' \25A0';
+}
+
+
+.monopattino .indirizzo{
+  font-family: arial;
+  color: white;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.indirizzo:before {
+    content: ' \21A6';
+}
+
+.monopattino .carica{
+  font-family: arial;
+  color: white;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.carica .media{
+  width: 50%;
+  background-color: orange;
+  color: orange;
+  font-size: 17px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.carica .alta{
+  width: 70%;
+  background-color: green;
+  color: green;
+  font-size: 17px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.carica .bassa{
+  width: 20%;
+  background-color: red;
+  color: red;
+  font-size: 17px;
+  border-radius: 5px;
+  user-select: none;
+}
